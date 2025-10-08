@@ -10,6 +10,6 @@ public class LightTurret : Turret
                 enemy.OnPlayerHit();
         }
 
-        Debug.DrawRay(transform.position, transform.forward * _range, Color.green);
+        base.Shoot();
     }
 }

@@ -12,7 +12,7 @@ public class HeavyTurret : Turret
             if (hit.collider.TryGetComponent<EnemyCollision>(out EnemyCollision enemy))
                 enemy.OnPlayerHit();
         }
-        
-        Debug.DrawRay(transform.position, transform.forward * _range, Color.green);
+
+        base.Shoot();
     }
 }

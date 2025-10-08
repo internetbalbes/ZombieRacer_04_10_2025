@@ -19,6 +19,6 @@ public class RocketTurret : Turret
             }
         }
 
-        Debug.DrawRay(transform.position, transform.forward * hit.distance, Color.red, 0.3f);
+        base.Shoot();
     }
 }

@@ -51,6 +51,7 @@
     <Compile Include="Assets\Scripts\Enemy\PlayerStalker.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Spawner\Pool.cs" />
+    <Compile Include="Assets\Scripts\Turret\Tracers\Tracer.cs" />
     <Compile Include="Assets\Scripts\Turret\RocketTurret.cs" />
     <Compile Include="Assets\Scripts\Obstacle\ObstacleCollision.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
@@ -64,8 +65,12 @@
     <Compile Include="Assets\Scripts\Turret\Turret.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSingleton.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerTurretInstaller.cs" />
+    <Compile Include="Assets\Scripts\Turret\TurretRotator.cs" />
     <Compile Include="Assets\Scripts\Turret\LightTurret.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\InstallPoint.cs" />
+    <Compile Include="Assets\Scripts\Turret\InstallPointFollower.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollision.cs" />
   </ItemGroup>
   <ItemGroup>

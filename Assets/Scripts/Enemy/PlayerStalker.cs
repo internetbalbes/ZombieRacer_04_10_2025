@@ -13,6 +13,8 @@ public class PlayerStalker : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, _player.position, _speed * Time.deltaTime);
+        Vector3 targetPosition = new Vector3(_player.position.x, transform.position.y, _player.position.z);
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, _speed * Time.deltaTime);
+        transform.LookAt(targetPosition);
     }
 }
