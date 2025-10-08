@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerStalker : MonoBehaviour
 {
-    private float _speed = 1f;
+    private float _speed = 3f;
 
     private static Transform _player;
 

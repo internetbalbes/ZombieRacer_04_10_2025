@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private float _rotationSpeed = 100f;
 
     private float _maxSpeed = 7f;
-    private float _acceleration = 0.25f;
+    private float _acceleration = 0.75f;
 
     private void Update()
     {
@@ -49,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (_speed <= 0)
         {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Debug.Log("PlayerSpeedEqualOrLessThanZero");
         }
     }
