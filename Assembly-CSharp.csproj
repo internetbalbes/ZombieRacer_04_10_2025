@@ -52,6 +52,7 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Spawner\Pool.cs" />
     <Compile Include="Assets\Scripts\Turret\Tracers\Tracer.cs" />
+    <Compile Include="Assets\Scripts\Player\Visual\BloodSplatter.cs" />
     <Compile Include="Assets\Scripts\Turret\RocketTurret.cs" />
     <Compile Include="Assets\Scripts\Obstacle\ObstacleCollision.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />

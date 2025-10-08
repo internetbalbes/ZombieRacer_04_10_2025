@@ -266,6 +266,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5614074274533455862, guid: 7c1a70f60838b93429b50c1413fddd74, type: 3}
+      propertyPath: _turret
+      value: 
+      objectReference: {fileID: 7623552540664761242}
     - target: {fileID: 6205116321848071655, guid: 7c1a70f60838b93429b50c1413fddd74, type: 3}
       propertyPath: m_Name
       value: RocketTurret

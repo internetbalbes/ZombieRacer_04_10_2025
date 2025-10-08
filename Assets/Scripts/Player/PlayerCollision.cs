@@ -7,6 +7,8 @@ public class PlayerCollision : MonoBehaviour
     private Collider _collider;
     private Rigidbody _rigidbody;
 
+    internal event System.Action OnPlayerHit;
+
     private void Start()
     {
         _collider = GetComponent<Collider>();
@@ -24,6 +26,7 @@ public class PlayerCollision : MonoBehaviour
         if (other.TryGetComponent<ObstacleCollision>(out ObstacleCollision _obstacleCollision))
         {
             _obstacleCollision.OnPlayerHit();
+            OnPlayerHit?.Invoke();
         }
     }
 }
